@@ -23,5 +23,10 @@ const addedElement = fruits.unshift("Pinaple")
 // shift() Methode শুরুর element remove করে।
 
 const firstElementRemove = fruits.shift()
-console.log(firstElementRemove);
-console.log(fruits)
+// console.log(firstElementRemove);
+// console.log(fruits)
+
+// includes() Methode কোনো value আছে কিনা check করে।
+
+const haveValue = fruits.includes("mango")
+console.log(haveValue);
